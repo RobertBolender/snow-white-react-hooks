@@ -1,4 +1,5 @@
 import React, { useContext, useState } from "react";
+import { UseState } from "./chapters";
 import "./storybook.css";
 
 type storybookContextType = {
@@ -11,7 +12,7 @@ export const StorybookProvider = storybookContext.Provider;
 export const useStorybookContext = () => useContext(storybookContext);
 
 const Chapters = [
-  { key: "useState", character: "Snow White" },
+  { key: "useState", Component: UseState, character: "Snow White" },
   { key: "useEffect", character: "Prince Charming" },
   { key: "useContext", character: "The Evil Queen" },
   { key: "useReducer", character: "Doc" },
@@ -60,7 +61,15 @@ const TableOfContents: React.FC = () => {
 
 const CurrentChapter: React.FC = () => {
   const { currentChapter, setCurrentChapter } = useStorybookContext() as any;
-  return <p>Current Chapter: {currentChapter}</p>;
+  const chapterHasComponent = Chapters.find(
+    ({ key }) => key === currentChapter
+  );
+  if (chapterHasComponent && chapterHasComponent.Component) {
+    const Component = chapterHasComponent.Component;
+    return <Component />;
+  } else {
+    return <p>Current Chapter: {currentChapter}</p>;
+  }
 };
 
 export const useStorybook = (
