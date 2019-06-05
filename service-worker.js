@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/snow-white-react-hooks/precache-manifest.918d7bb6a816da90f9284083e553520f.js"
+  "/snow-white-react-hooks/precache-manifest.996b3883cf4cb8b15a336a88f1ae50cf.js"
 );
 
 self.addEventListener('message', (event) => {

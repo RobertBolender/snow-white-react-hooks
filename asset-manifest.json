@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/snow-white-react-hooks/static/css/main.a32955ff.chunk.css",
-    "main.js": "/snow-white-react-hooks/static/js/main.09c4b39f.chunk.js",
-    "main.js.map": "/snow-white-react-hooks/static/js/main.09c4b39f.chunk.js.map",
+    "main.css": "/snow-white-react-hooks/static/css/main.cccdd781.chunk.css",
+    "main.js": "/snow-white-react-hooks/static/js/main.f2d5e2ce.chunk.js",
+    "main.js.map": "/snow-white-react-hooks/static/js/main.f2d5e2ce.chunk.js.map",
     "runtime~main.js": "/snow-white-react-hooks/static/js/runtime~main.164080d5.js",
     "runtime~main.js.map": "/snow-white-react-hooks/static/js/runtime~main.164080d5.js.map",
-    "static/js/2.b41502e9.chunk.js": "/snow-white-react-hooks/static/js/2.b41502e9.chunk.js",
-    "static/js/2.b41502e9.chunk.js.map": "/snow-white-react-hooks/static/js/2.b41502e9.chunk.js.map",
+    "static/js/2.c2695c00.chunk.js": "/snow-white-react-hooks/static/js/2.c2695c00.chunk.js",
+    "static/js/2.c2695c00.chunk.js.map": "/snow-white-react-hooks/static/js/2.c2695c00.chunk.js.map",
     "index.html": "/snow-white-react-hooks/index.html",
-    "precache-manifest.918d7bb6a816da90f9284083e553520f.js": "/snow-white-react-hooks/precache-manifest.918d7bb6a816da90f9284083e553520f.js",
+    "precache-manifest.996b3883cf4cb8b15a336a88f1ae50cf.js": "/snow-white-react-hooks/precache-manifest.996b3883cf4cb8b15a336a88f1ae50cf.js",
     "service-worker.js": "/snow-white-react-hooks/service-worker.js",
-    "static/css/main.a32955ff.chunk.css.map": "/snow-white-react-hooks/static/css/main.a32955ff.chunk.css.map",
-    "static/media/logo.svg": "/snow-white-react-hooks/static/media/logo.5d5d9eef.svg"
+    "static/css/main.cccdd781.chunk.css.map": "/snow-white-react-hooks/static/css/main.cccdd781.chunk.css.map"
   }
 }
